@@ -50,8 +50,8 @@
 							<li>
 								<a href="research_topics.html">Research Topics</a>
 								<ul>
-									<li><a href="research_topics.html#Auto_PMB_system">Automated physical model
-											building</a></li>
+									<li><a href="research_topics.html#AutoPMoB">Automated physical model
+											builder</a></li>
 									<li><a href="research_topics.html#CZ_process">Czochralski process</a></li>
 								</ul>
 							</li>
@@ -71,50 +71,62 @@
 						<section>
 							<div class="row gtr-50">
 								<div>
-									<h3><a href="#Auto_PMB_system" class="image fit">
-											Automated Physical Model Building</a>
+									<h3>
+										<a href="#AutoPMoB" class="image fit">
+											Automated physical model builder</a>
 									</h3>
 								</div>
 								<div>
-									<h3><a href="#CZ_process" class="image fit">Model-based Control of the Czochralski
+									<h3><a href="#CZ_process" class="image fit">Model-based control of the Czochralski
 											process</a></h3>
 								</div>
 							</div>
 						</section>
 					</div>
-					<div class="col-8 col-12-mobile imp-mobile" id="content">
-						<article id="main">
-							<header>
-								<h2><a id="Auto_PMB_system">Automated Physical Modeling</a></h2>
-								<h3>物理モデル自動構築システムの開発</h3>
-								<div class="about_research">
+					<div class="col-8 col-12-mobile imp-mobile about_research" id="content">
+						<div class="main_Area">
+							<article id="main">
+								<section>
+									<h1><a id="AutoPMoB">文献から製造プロセスの物理モデルを自動生成するAI</a><br>
+										<small>Automated physical model builder</small>
+									</h1>
+									<h2>概要</h2>
 									<p>
-										化学プロセスにおける新規プラントの設計や制御系開発に物理モデルが用いられています．
-										物理モデルの構築は文献情報をもとに試行錯誤的に行われていますが，既存の文献の調査はすべて調査するためには多大な時間を要します．
-										本研究の目的は，学術論文や書籍から対象プロセスのモデルに関する情報を自動で抽出して物理モデルを構築するシステム（物理モデル自動構築システム）を開発することです．
-										自然言語処理や機械学習に基づいて論文からモデルに関する情報を正確に抽出する手法の開発に取り組んでいます．
-									</p>
-								</div>
-							</header>
-							<a href="images/Auto_PMB_system.jpg" class="image fit"><img src="images/Auto_PMB_system.jpg"
-									alt="" /></a>
-							<hr />
+										化学プラントにおけるデジタルツインの実現には，実プロセスを正確に表現可能な物理モデル（第一原理モデル）が必要です．
+										しかし，モデル構築は専門性を有する研究者の試行錯誤的な取り組みを必要とし，難しく高コストです．
+										私達は，<u>AutoPMoB（automated physical model
+											builder）</u>と名付けた，文献を駆使してあらゆるプロセスの物理モデルを自動的に構築する人工知能（AI）の開発を目指しています．
 
-							<section>
-								<header>
-									<h2><a id="CZ_process">Model-based Control of the Czochralski process</a></h2>
-									<h3>Czochralskiプロセスのモデリングおよび制御系開発</h3>
-									<div class="about_research">
-										Czochralski（CZ）プロセスは，半導体の基盤材料である単結晶シリコンインゴットを製造するプロセスの一つです．
+									</p>
+									<a href="images/AutoPMoB.png" class="image fit"><img src="images/AutoPMoB.png"
+											alt="" /></a>
+
+									<h2> 産業界への展開例・適用分野</h2>
+									<p>
+										化学・鉄鋼・半導体などの産業プロセスにおいて，様々な外乱や異常を想定し，真に生産現場で活用できるモデル（デジタルツイン）を構築するには，統計モデルではなく，現象論に基づく物理モデルが欠かせません．
+										しかし，物理モデルの構築には大変な手間がかかります．
+										物理モデル自動構築AI（AutoPMoB）を開発することで，誰もが目的に合致した物理モデルを構築できるようになります．
+										これにより，プロセス産業におけるデジタルツインの実現，デジタルトランスフォーメーション（DX）の推進が期待できます．
+									</p>
+									具体的な研究内容は<a href="research_AutoPMoB.html">こちら</a>
+								</section>
+								<hr />
+								<section>
+									<h1><a id="CZ_process">チョクラルスキープロセスのモデルベース制御系開発</a><br>
+										Model-based control of the Czochralski process
+									</h1>
+									<h2> 概要</h2>
+									<p>
+										チョクラルスキー（Czochralski; CZ）プロセスは，半導体の基盤材料である単結晶シリコンインゴットを製造するプロセスの一つです．
 										半導体の需要増加に伴ってCZプロセスの歩留まりや品質の改善が求められています．
 										そのような需要に応えるためには制御性能を向上させる方法が必要です．
 										本研究ではモデル予測制御で制御性能を向上させることを目指し，CZプロセスのモデル化と制御系開発に取り組んでいます．
-									</div>
-								</header>
-								<a href="images/CZ_diagram.jpg" class="image fit"><img src="images/CZ_diagram.jpg"
-										alt="" /></a>
-							</section>
-						</article>
+									</p>
+									<a href="images/CZ_diagram.jpg" class="image fit"><img src="images/CZ_diagram.jpg"
+											alt="" /></a>
+								</section>
+							</article>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -130,6 +142,9 @@
 					<section class="contact">
 
 						<ul class="icons">
+							<li><a href="https://twitter.com/st_ktu" class="icon brands fa-twitter"><span
+										class="label">Twitter</span></a>
+							</li>
 							<li><a href="https://github.com/stktu" class="icon brands fa-github"><span
 										class="label">Github</span></a>
 							</li>
